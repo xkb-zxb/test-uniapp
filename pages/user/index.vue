@@ -43,15 +43,15 @@ export default {
     menuList() {
       return [
         {
-          id: '9',
-          iconClass: 'cuIcon-safe text-blue',
+          id: Symbol(),
+          iconClass: 'cuIcon-apps text-blue',
           label: '我的测试',
           url: '/pages/test/index',
           value: ''
         },
         {
-          id: '10',
-          iconClass: 'cuIcon-safe text-blue',
+          id: Symbol(),
+          iconClass: 'cuIcon-apps text-blue',
           label: '关于',
           url: '',
           value: ''
